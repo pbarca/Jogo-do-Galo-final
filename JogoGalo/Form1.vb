@@ -8,7 +8,6 @@ Public Class Form1
     End Sub
     Private Sub InicializaGalo()
 
-        Dim i As Integer
         For i = 0 To 8
             Galo(i) = 0
             Call Imagem(i, 0)
@@ -87,7 +86,6 @@ Public Class Form1
             MsgBox("Ganhastes!!! Jogar Novamente? ")
             Call InicializaGalo()
         Else
-            Dim i As Integer
             Dim empate = True
             For i = 0 To 8
                 If Galo(i) = 0 Then empate = False

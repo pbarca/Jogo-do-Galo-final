@@ -24,24 +24,24 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Q9 = New System.Windows.Forms.PictureBox()
+        Me.Q6 = New System.Windows.Forms.PictureBox()
+        Me.Q3 = New System.Windows.Forms.PictureBox()
+        Me.Q8 = New System.Windows.Forms.PictureBox()
+        Me.Q5 = New System.Windows.Forms.PictureBox()
+        Me.Q2 = New System.Windows.Forms.PictureBox()
+        Me.Q7 = New System.Windows.Forms.PictureBox()
+        Me.Q4 = New System.Windows.Forms.PictureBox()
+        Me.Q1 = New System.Windows.Forms.PictureBox()
+        CType(Me.Q9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Q6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Q3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Q8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Q5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Q2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Q7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Q4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Q1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
@@ -69,95 +69,95 @@ Partial Class Form1
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Jogo do Galo"
         '
-        'PictureBox9
+        'Q9
         '
-        Me.PictureBox9.Image = Global.JogoGalo.My.Resources.Resources.Vazio
-        Me.PictureBox9.Location = New System.Drawing.Point(528, 448)
-        Me.PictureBox9.Margin = New System.Windows.Forms.Padding(4)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(171, 158)
-        Me.PictureBox9.TabIndex = 4
-        Me.PictureBox9.TabStop = False
+        Me.Q9.Image = Global.JogoGalo.My.Resources.Resources.Vazio
+        Me.Q9.Location = New System.Drawing.Point(528, 448)
+        Me.Q9.Margin = New System.Windows.Forms.Padding(4)
+        Me.Q9.Name = "Q9"
+        Me.Q9.Size = New System.Drawing.Size(171, 158)
+        Me.Q9.TabIndex = 4
+        Me.Q9.TabStop = False
         '
-        'PictureBox6
+        'Q6
         '
-        Me.PictureBox6.Image = Global.JogoGalo.My.Resources.Resources.Vazio
-        Me.PictureBox6.Location = New System.Drawing.Point(528, 272)
-        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(4)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(171, 158)
-        Me.PictureBox6.TabIndex = 4
-        Me.PictureBox6.TabStop = False
+        Me.Q6.Image = Global.JogoGalo.My.Resources.Resources.Vazio
+        Me.Q6.Location = New System.Drawing.Point(528, 272)
+        Me.Q6.Margin = New System.Windows.Forms.Padding(4)
+        Me.Q6.Name = "Q6"
+        Me.Q6.Size = New System.Drawing.Size(171, 158)
+        Me.Q6.TabIndex = 4
+        Me.Q6.TabStop = False
         '
-        'PictureBox3
+        'Q3
         '
-        Me.PictureBox3.Image = Global.JogoGalo.My.Resources.Resources.Vazio
-        Me.PictureBox3.Location = New System.Drawing.Point(528, 92)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(171, 158)
-        Me.PictureBox3.TabIndex = 4
-        Me.PictureBox3.TabStop = False
+        Me.Q3.Image = Global.JogoGalo.My.Resources.Resources.Vazio
+        Me.Q3.Location = New System.Drawing.Point(528, 92)
+        Me.Q3.Margin = New System.Windows.Forms.Padding(4)
+        Me.Q3.Name = "Q3"
+        Me.Q3.Size = New System.Drawing.Size(171, 158)
+        Me.Q3.TabIndex = 4
+        Me.Q3.TabStop = False
         '
-        'PictureBox8
+        'Q8
         '
-        Me.PictureBox8.Image = Global.JogoGalo.My.Resources.Resources.Vazio
-        Me.PictureBox8.Location = New System.Drawing.Point(308, 448)
-        Me.PictureBox8.Margin = New System.Windows.Forms.Padding(4)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(171, 158)
-        Me.PictureBox8.TabIndex = 4
-        Me.PictureBox8.TabStop = False
+        Me.Q8.Image = Global.JogoGalo.My.Resources.Resources.Vazio
+        Me.Q8.Location = New System.Drawing.Point(308, 448)
+        Me.Q8.Margin = New System.Windows.Forms.Padding(4)
+        Me.Q8.Name = "Q8"
+        Me.Q8.Size = New System.Drawing.Size(171, 158)
+        Me.Q8.TabIndex = 4
+        Me.Q8.TabStop = False
         '
-        'PictureBox5
+        'Q5
         '
-        Me.PictureBox5.Image = Global.JogoGalo.My.Resources.Resources.Vazio
-        Me.PictureBox5.Location = New System.Drawing.Point(308, 272)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(171, 158)
-        Me.PictureBox5.TabIndex = 4
-        Me.PictureBox5.TabStop = False
+        Me.Q5.Image = Global.JogoGalo.My.Resources.Resources.Vazio
+        Me.Q5.Location = New System.Drawing.Point(308, 272)
+        Me.Q5.Margin = New System.Windows.Forms.Padding(4)
+        Me.Q5.Name = "Q5"
+        Me.Q5.Size = New System.Drawing.Size(171, 158)
+        Me.Q5.TabIndex = 4
+        Me.Q5.TabStop = False
         '
-        'PictureBox2
+        'Q2
         '
-        Me.PictureBox2.Image = Global.JogoGalo.My.Resources.Resources.Vazio
-        Me.PictureBox2.Location = New System.Drawing.Point(308, 92)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(171, 158)
-        Me.PictureBox2.TabIndex = 4
-        Me.PictureBox2.TabStop = False
+        Me.Q2.Image = Global.JogoGalo.My.Resources.Resources.Vazio
+        Me.Q2.Location = New System.Drawing.Point(308, 92)
+        Me.Q2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Q2.Name = "Q2"
+        Me.Q2.Size = New System.Drawing.Size(171, 158)
+        Me.Q2.TabIndex = 4
+        Me.Q2.TabStop = False
         '
-        'PictureBox7
+        'Q7
         '
-        Me.PictureBox7.Image = Global.JogoGalo.My.Resources.Resources.Vazio
-        Me.PictureBox7.Location = New System.Drawing.Point(91, 448)
-        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(4)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(171, 158)
-        Me.PictureBox7.TabIndex = 4
-        Me.PictureBox7.TabStop = False
+        Me.Q7.Image = Global.JogoGalo.My.Resources.Resources.Vazio
+        Me.Q7.Location = New System.Drawing.Point(91, 448)
+        Me.Q7.Margin = New System.Windows.Forms.Padding(4)
+        Me.Q7.Name = "Q7"
+        Me.Q7.Size = New System.Drawing.Size(171, 158)
+        Me.Q7.TabIndex = 4
+        Me.Q7.TabStop = False
         '
-        'PictureBox4
+        'Q4
         '
-        Me.PictureBox4.Image = Global.JogoGalo.My.Resources.Resources.Vazio
-        Me.PictureBox4.Location = New System.Drawing.Point(91, 272)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(171, 158)
-        Me.PictureBox4.TabIndex = 4
-        Me.PictureBox4.TabStop = False
+        Me.Q4.Image = Global.JogoGalo.My.Resources.Resources.Vazio
+        Me.Q4.Location = New System.Drawing.Point(91, 272)
+        Me.Q4.Margin = New System.Windows.Forms.Padding(4)
+        Me.Q4.Name = "Q4"
+        Me.Q4.Size = New System.Drawing.Size(171, 158)
+        Me.Q4.TabIndex = 4
+        Me.Q4.TabStop = False
         '
-        'PictureBox1
+        'Q1
         '
-        Me.PictureBox1.Image = Global.JogoGalo.My.Resources.Resources.Vazio
-        Me.PictureBox1.Location = New System.Drawing.Point(91, 92)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(171, 158)
-        Me.PictureBox1.TabIndex = 4
-        Me.PictureBox1.TabStop = False
+        Me.Q1.Image = Global.JogoGalo.My.Resources.Resources.Vazio
+        Me.Q1.Location = New System.Drawing.Point(91, 92)
+        Me.Q1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Q1.Name = "Q1"
+        Me.Q1.Size = New System.Drawing.Size(171, 158)
+        Me.Q1.TabIndex = 4
+        Me.Q1.TabStop = False
         '
         'Form1
         '
@@ -165,43 +165,43 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.ClientSize = New System.Drawing.Size(789, 697)
-        Me.Controls.Add(Me.PictureBox9)
-        Me.Controls.Add(Me.PictureBox6)
-        Me.Controls.Add(Me.PictureBox3)
-        Me.Controls.Add(Me.PictureBox8)
-        Me.Controls.Add(Me.PictureBox5)
-        Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.PictureBox7)
-        Me.Controls.Add(Me.PictureBox4)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Q9)
+        Me.Controls.Add(Me.Q6)
+        Me.Controls.Add(Me.Q3)
+        Me.Controls.Add(Me.Q8)
+        Me.Controls.Add(Me.Q5)
+        Me.Controls.Add(Me.Q2)
+        Me.Controls.Add(Me.Q7)
+        Me.Controls.Add(Me.Q4)
+        Me.Controls.Add(Me.Q1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button1)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Q9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Q6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Q3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Q8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Q5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Q2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Q7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Q4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Q1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox6 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox7 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox8 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox9 As System.Windows.Forms.PictureBox
+    Friend WithEvents Q1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Q2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Q3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Q4 As System.Windows.Forms.PictureBox
+    Friend WithEvents Q5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Q6 As System.Windows.Forms.PictureBox
+    Friend WithEvents Q7 As System.Windows.Forms.PictureBox
+    Friend WithEvents Q8 As System.Windows.Forms.PictureBox
+    Friend WithEvents Q9 As System.Windows.Forms.PictureBox
 
 End Class

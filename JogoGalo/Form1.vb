@@ -14,26 +14,26 @@ Public Class Form1
             Call Imagem(i, 0)
         Next
     End Sub
-    Private Sub PictureBox1_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox1.Click, PictureBox2.Click, PictureBox3.Click, PictureBox4.Click, PictureBox5.Click, PictureBox6.Click, PictureBox7.Click, PictureBox8.Click, PictureBox9.Click
+    Private Sub Clicar(sender As System.Object, e As System.EventArgs) Handles Q1.Click, Q2.Click, Q3.Click, Q4.Click, Q5.Click, Q6.Click, Q7.Click, Q8.Click, Q9.Click
         Dim quadro As Integer
         Select Case sender.name
-            Case "PictureBox1"
+            Case "Q1"
                 quadro = 0
-            Case "PictureBox2"
+            Case "Q2"
                 quadro = 1
-            Case "PictureBox3"
+            Case "Q3"
                 quadro = 2
-            Case "PictureBox4"
+            Case "Q4"
                 quadro = 3
-            Case "PictureBox5"
+            Case "Q5"
                 quadro = 4
-            Case "PictureBox6"
+            Case "Q6"
                 quadro = 5
-            Case "PictureBox7"
+            Case "Q7"
                 quadro = 6
-            Case "PictureBox8"
+            Case "Q8"
                 quadro = 7
-            Case "PictureBox9"
+            Case "Q9"
                 quadro = 8
         End Select
 
@@ -122,7 +122,7 @@ Public Class Form1
     End Function
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Quadros = {PictureBox1, PictureBox2, PictureBox3, PictureBox4, PictureBox5, PictureBox6, PictureBox7, PictureBox8, PictureBox9}
+        Quadros = {Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9}
     End Sub
 
     Private Sub JogaPC()
